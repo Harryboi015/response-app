@@ -17,7 +17,7 @@ function Header({text, bdColor, textColor}) {
   }
 
   const isAuthenticated = state.accessToken != null;
-  return (
+  return ( 
     <header style={styleHandler}>  
                   <div>{text}</div>
                        {/* {isAuthenticated && <>
